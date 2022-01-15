@@ -11,30 +11,49 @@ header{
 
 .menu{
     display: flex;
-    border: red solid 2px;
+    /*border: red solid 2px;*/
     position: absolute;
     width: 100vw;
     height: 150px;
 }
 
 .boxLogo{
-    margin: 10px 0px 0px 30px;
-    border: green 2px solid;
+    margin: 10px 0px 0px 10px;
+    /*border: green 2px solid;*/
 }
 
 #logoTituloNz{          /*logo*/
-    border: red 2px solid;
+    /*border: red 2px solid;*/
     min-width: 100px;
     max-width: 200px;
     height: 140px;
     border-radius: 100%;
+    cursor: pointer;
 }
 
 .menuList{
     display: flex;
-    border: solid 2px red;
+    /*border: solid 2px red;*/
     justify-content: center;
     align-items: center;
     margin-left: 5%;
     width: 100vw;
+}
+
+#itensMenu{
+    margin: 0px 5px 0px 5px;
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#itensMenu:hover{
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+#itensMenu:active{
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
