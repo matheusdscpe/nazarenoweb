@@ -1,44 +1,40 @@
 header{
-    display: grid;
-    grid-template-columns: 20% 80%;
+    display: flex;
 }
 
-#logoNz{
-    margin: 20px 0px 0px 20px;
-    width: 100px;
+.boxBackground{
+    background-image: url(../css/img/Sem\ título.png);
+    background-position: center;
+    width: 100vw;
+    height: 605px;
+}
+
+.menu{
+    display: flex;
+    border: red solid 2px;
+    position: absolute;
+    width: 100vw;
+    height: 150px;
+}
+
+.boxLogo{
+    margin: 10px 0px 0px 30px;
+    border: green 2px solid;
+}
+
+#logoTituloNz{          /*logo*/
+    border: red 2px solid;
+    min-width: 100px;
+    max-width: 200px;
+    height: 140px;
     border-radius: 100%;
-    cursor: pointer;
 }
 
-.boxListMenu{
+.menuList{
     display: flex;
+    border: solid 2px red;
+    justify-content: center;
     align-items: center;
-    justify-content: center;
+    margin-left: 5%;
+    width: 100vw;
 }
-
-#listaMenu{
-    display: flex;
-    justify-content: center;
-}
-
-.itensMenu{
-    padding: 20px;
-    
-}
-
-.butoesMenu{
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
-    font-size: 15px;
-}
-    .butoesMenu:hover{
-        background-color: rgb(199, 199, 199);
-        color: rgb(58, 58, 58);
-        border-radius: 5px;
-    }
-
-    .butoesMenu:active{
-        background-color: rgb(95, 95, 95);
-        color: white;
-    }
