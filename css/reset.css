@@ -7,3 +7,5 @@
 body{
     background-image: url(../img/background\ 1.jpg);
 }
+a:link    { color: black; }
+a:visited { color: black; }

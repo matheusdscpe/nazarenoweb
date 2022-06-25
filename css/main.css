@@ -3,7 +3,7 @@ main{
     flex-direction: column;
     justify-content: center;
 }
-
+/*section 01*/
 .carrosel{
     margin: auto;
     height: 80vw;
@@ -16,12 +16,61 @@ main{
     width: 90vw;
     border-radius: 9px;
 }
-
-.imgN1{
-    animation-name: carrosel;
-    animation-timing-function: linear;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+.para-sect-01{
+    margin-top: 2em;
+    text-align: center;
 }
+.para-sect-01 strong{
+    font-size: 3em;
+}
+/*section 02*/
+.sect-02{
+    margin: 0 1em 1em;
+    text-align: justify;
+}
+.sect-02 h2{
+    font-family: 26em;
+}
+.logoCcms{
+    width: 30vw;
+    border-radius: 100%;
+    float: left;
+    margin: 0 1em;
+}
+/*section 03*/
+.sect-03{
+    text-align: center;
+}
+.tabe-sect-03{
+    margin: 0 auto;
 
-
+}
+.para-sect-03{
+    text-align: justify;
+    margin: 0 1em 1em;
+}
+.maps-sect{
+    border-radius: 1em;
+    box-shadow: 10px 10px 10px  gray;
+    margin: 1em auto;
+}
+.nav-icons-sect{
+    margin: 1em auto 0.5em;
+    font-size: 3em;
+}
+/*section 04*/
+.sect-04{
+    margin: 0 1em 1em;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sect-04 h2{
+    font-family: 26em;
+}
+.img-sect-04{
+    width: 80%;
+    margin: 1em auto;
+    border-radius: 1em;
+}
