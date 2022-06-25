@@ -1,11 +1,9 @@
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+    font-family: Staatliches;
 }
-
 body{
-    background-image: url(../css/img/papelamassado.jpg);
-    background-size: 100%;
+    background-image: url(../img/background\ 1.jpg);
 }

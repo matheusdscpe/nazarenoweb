@@ -1,0 +1,27 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carrosel{
+    margin: auto;
+    height: 80vw;
+    width: 90vw;
+    border-radius: 9px;
+    box-shadow: 10px 10px 10px  gray;
+}
+.carrosel img{
+    height: 80vw;
+    width: 90vw;
+    border-radius: 9px;
+}
+
+.imgN1{
+    animation-name: carrosel;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
