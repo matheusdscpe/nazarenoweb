@@ -1,21 +1,37 @@
 header{
     display: flex;
     justify-content: space-between;
-}
-.link_logo{
-    width: 30%;
-    height: 20%;
+    align-items: center;
 }
 .logo{
-    width: 100%;
-}
-.nav_menu{
-   margin: auto 1rem auto;
+    width: 100px;
 }
 .hamb_menu{
-    font-size: 30px;
+    margin-right: 1rem;
     background-color: transparent;
+    font-size: 2em;
+    height: 2rem;
+    width: 1;
+    
 }
-.hamb_menu:hover{
-    cursor: pointer;
+.itens{
+    display: none;
+}
+.active-menu{
+    top: 0;
+    right: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 100vh;
+    background-color: #8282829a;
+    align-items: flex-end;
+    gap: 1rem;
+    padding: 2rem 1rem 0 0;
+}
+.itensActive{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
