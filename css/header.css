@@ -42,13 +42,12 @@ header{
     font-size: 1.2rem;
 }
 
-.bnt-fechar-menu{
-    /*seta sem aparecer*/
-}
+/* .bnt-fechar-menu{
+    seta sem aparecer
+} */
 
 .bnt-links-menu{
     background-color: transparent;
     border-bottom: 1px solid;
     margin-top: 1rem;
-    
 }
