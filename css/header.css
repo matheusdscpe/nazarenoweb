@@ -28,9 +28,13 @@ header{
 
 
 /*--------menu mobile aberto--------*/
-.menu-lateral{
+.menu-lateral-fechado{
+    display: none;
+}
+
+.menu-lateral-aberto{
     position: fixed;
-    background-color: rgb(136, 136, 136);
+    background-color: rgba(141, 141, 141, 0.705);
     height: 100vh;
     width: 35vw;
     top: 0;
@@ -40,14 +44,53 @@ header{
     text-align: center;
     padding-top: 2rem;
     font-size: 1.2rem;
+    animation-name: abrir-menu-mobile;
+    animation-duration: 1s;
 }
 
-/* .bnt-fechar-menu{
-    seta sem aparecer
-} */
+.bnt-fechar-menu{
+    background: transparent;
+}
 
 .bnt-links-menu{
     background-color: transparent;
     border-bottom: 1px solid;
     margin-top: 1rem;
 }
+/*--------fim do menu mobile aberto--------*/
+
+
+/*--------classes para manipulação de elementos com js-------*/
+
+.remove-icone-hamburguer{
+    display: none;
+}
+
+.abrir-menu-mobile{
+    display: flex;
+    
+}
+.fechar-menu-mobile{
+    animation-name: fechar-menu-mobile;
+    animation-duration: 1.1s;
+}
+
+@keyframes abrir-menu-mobile{
+        from {
+          right: -50vw;
+        }
+        to {
+          right: 0;
+        }
+      }
+@keyframes fechar-menu-mobile{
+        from {
+          right: 0;
+        }
+        to {
+          right: -50vw;
+        }
+      }
+
+
+/*--------fim de classes para manipulação de elementos com js--------*/
