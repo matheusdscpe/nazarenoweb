@@ -54,10 +54,34 @@ main{
     box-shadow: 10px 10px 10px  gray;
     margin: 1em auto;
 }
-.nav-icons-sect{
-    margin: 1em auto 0.5em;
-    font-size: 3em;
+
+/*--------SEÇÃO DE CONTATOS--------*/
+
+.sect-contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid red 1px;
 }
+
+.titulo-contatos{
+    margin: 1rem 0 1rem 0 ;
+}
+
+.para-contatos{
+    margin: 0 1rem 0 1rem;
+    text-align: center;
+
+}
+.nav-icons-sect{
+    font-size: 3em; 
+}
+
+
+/*--------FIM DA SEÇÃO DE CONTATOS--------*/
+
+
 /*section 04*/
 .sect-04{
     margin: 0 1em 1em;
