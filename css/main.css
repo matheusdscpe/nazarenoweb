@@ -4,7 +4,7 @@ main{
     justify-content: center;
 }
 /*section 01*/
-.carrosel{
+/* .carrosel{
     margin: auto;
     height: 80vw;
     width: 90vw;
@@ -22,7 +22,7 @@ main{
 }
 .para-sect-01 strong{
     font-size: 3em;
-}
+} */
 /*section 02*/
 .sect-02{
     margin: 0 1em 1em;
