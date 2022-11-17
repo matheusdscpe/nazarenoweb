@@ -46,6 +46,7 @@ header{
     font-size: 1.2rem;
     animation-name: abrir-menu-mobile;
     animation-duration: 1s;
+    z-index: 10;
 }
 
 .bnt-fechar-menu{
