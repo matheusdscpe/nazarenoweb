@@ -1,4 +1,21 @@
 footer{
-    background-color: rgba(141, 141, 141, 0.705);
+    background: linear-gradient(0deg, rgba(116,116,116,1) 81%, rgba(116,116,116,1) 87%, rgba(255,255,255,0) 100%);
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.logo-footer{
+    margin-top: 5rem;
+    width: 100vw;
+}
+
+.title-footer, .links-footer{
+    font-size: 1.5rem;
+    padding: 0 0 2rem 2rem;
+}
+.p-footer{
+    text-align: center;
+    margin-bottom: 2rem;
 }
