@@ -4,6 +4,9 @@
     border: 0;
     font-family: Staatliches;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-image: url(../img/background\ 1.jpg);
 }
